@@ -1,6 +1,4 @@
 # Aula 09 - Primeiro feedback
-
-A atividade consiste em manipular o DOM da lista de itens. Basicamente irá criar os elementos, adicionar o texto e adicionar no elemento `<section id="carrinho">"` os elementos conforme as instruções.
         
 ## Instruções
 
