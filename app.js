@@ -6,11 +6,13 @@
    
 
     btnMenu.addEventListener("click", function () {
+        menu.classList.remove("l-sidebar--close");
         menu.classList.add("l-sidebar--open");
     });
 
     menu.addEventListener("click", function () {
         menu.classList.remove("l-sidebar--open");
+        menu.classList.add("l-sidebar--close");
     });
     
 
