@@ -1,10 +1,11 @@
 (function() {
-    
-    // Adicione sua implementação aqui...
-    // Tem total liberdade de alterar o documento HTML, CSS e JS.
 
+    var btnMenu = document.querySelector(".l-sidebar__btn");
+    var menu = document.querySelector(".l-sidebar");
+    var documento = document.body;
 
-    // Um ótimo feedback para todos.
-
+    btnMenu.addEventListener("click", function () {
+        menu.classList.add("l-sidebar--open");
+    });
 
 })();
