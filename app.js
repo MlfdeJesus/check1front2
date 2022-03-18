@@ -22,4 +22,9 @@
         };
     });
 
+    documento.addEventListener("dblclick", function () {
+        menu.classList.toggle("l-sidebar--close")
+        menu.classList.add("l-sidebar--open");
+    });
+
 })();
