@@ -33,6 +33,21 @@
     textbox.style.left = eve.pageX + 'px';
     textbox.style.top = eve.pageY + 'px';
     });
+    
+    var btnContato = document.getElementById('btnContato')
 
+        btnContato.addEventListener('click', function(e) {
+        document.addEventListener('mousemove', function(e) {
+        let body = document.querySelector('body');
+        let box = document.getElementById('contato');
+        let left = e.offsetX;
+        let top = e.offsetY;
+        box.style.left = left + 'px';
+        box.style.top = top + 'px';
+        setTimeout(function(){
+        var a = document.getElementById("contato");
+        a.style="display:none"
+        }, 5000);
+        })});
 
 })();
