@@ -20,7 +20,8 @@ body {
     border: 0;
 }
 
-#contato{
+.box-text{
+    display: none;
     position:absolute;
     background-color:black;
     color: white;
